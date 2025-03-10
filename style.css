@@ -1,0 +1,100 @@
+/*Üldine*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+
+/*Päis ja menüü*/
+.header{
+    padding: 30px 40px;
+}
+
+.header.h1{
+    font-weight: 400;
+}
+
+.menu{
+    background-color: #17806D;
+}
+
+.menu.ul{
+    list-style-type: none;
+    margin: 0 40px;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.menu.a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.menu.li{
+    float: left;
+    margin: 10px 30px;
+}
+
+
+.menu.a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+/* Sisu*/
+.left{
+    width: 20%;
+}
+
+.left.h1{
+    color: #BFD641;
+    text-align: center;
+}
+
+
+
+.right{
+    width: 75%;
+    float: right;
+}
+
+.right.h2{
+    color: #17806D;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.right.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0;
+}
+/*Jalus*/
+
+.footer{
+    clear: both;
+    background-color: #ccc;
+
+}
+
+.footer.p{
+    text-align: right;
+    margin-right: 40px;
+    line-height: 30px;
+}
