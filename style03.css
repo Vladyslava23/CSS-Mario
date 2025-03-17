@@ -1,0 +1,82 @@
+/*Üld*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*PÄIS ja MENÜÜ*/
+
+.header {
+    height: 480px;
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    background: rgb(2, 101, 113);
+    background: linear-gradient(
+        189deg,
+        rgba(2, 101, 113, 1) 0%,
+        rgba(119, 178, 184, 1) 66%,
+        rgba(119, 178, 184, 1) 74%,
+        rgba(231, 147, 113, 1) 100%
+    );
+}
+
+.header__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #fede00;
+}
+
+.header__title {
+    font-size: 100px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.header__label {
+    font-size: 30px;
+    font-style: italic;
+    color: #fff;
+}
+
+/*SISU*/
+
+.content {
+    height: 600px;
+    padding: 50px;
+}
+
+.content__container {
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+}
+
+.content__picture img {
+    width: 600px;
+    height: 100px;
+}
+
+.content__body {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.content__title {
+    margin-bottom: 10px;
+}
+
+.content__text {
+    margin-bottom: 20px;
+}
+
+/*JALUS*/
+.footer {
+    padding: 40px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    background: #f7c202;
+}
+
