@@ -11,30 +11,24 @@
     padding: 80px 0;
     text-align: center;
     color: #fff;
-    background: rgb(2, 101, 113);
-    background: linear-gradient(
-        189deg,
-        rgba(2, 101, 113, 1) 0%,
-        rgba(119, 178, 184, 1) 66%,
-        rgba(119, 178, 184, 1) 74%,
-        rgba(231, 147, 113, 1) 100%
-    );
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.header__avatar {
+.avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 10px solid #fede00;
 }
 
-.header__title {
+.title{
     font-size: 100px;
     margin: 10px 0;
     color: #fff;
 }
 
-.header__label {
+.logo {
     font-size: 30px;
     font-style: italic;
     color: #fff;
@@ -43,32 +37,21 @@
 /*SISU*/
 
 .content {
-    height: 600px;
-    padding: 50px;
-}
-
-.content__container {
     display: flex;
-    gap: 100px;
-    margin: 0 auto;
+    height: 600px; 
+    padding: 20px;
 }
 
-.content__picture img {
+.picture {
     width: 600px;
     height: 100px;
+    margin: 100px;
+    float: left;
 }
 
-.content__body {
+.text {
     font-size: 20px;
-    line-height: 2;
-}
-
-.content__title {
-    margin-bottom: 10px;
-}
-
-.content__text {
-    margin-bottom: 20px;
+    line-height: 2.0; 
 }
 
 /*JALUS*/
